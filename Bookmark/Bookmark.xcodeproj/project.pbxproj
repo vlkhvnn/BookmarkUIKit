@@ -15,6 +15,7 @@
 		7AED74E22A8958940043AF3A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7AED74E12A8958940043AF3A /* SnapKit */; };
 		7AED74E42A895F770043AF3A /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED74E32A895F770043AF3A /* OnboardingScreen.swift */; };
 		7AED74E62A8AA0AA0043AF3A /* BookmarksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED74E52A8AA0AA0043AF3A /* BookmarksAPI.swift */; };
+		7AED74E82A8BA8FF0043AF3A /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AED74E72A8BA8FF0043AF3A /* BookmarkTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7AED74D52A8957EF0043AF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AED74E32A895F770043AF3A /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		7AED74E52A8AA0AA0043AF3A /* BookmarksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksAPI.swift; sourceTree = "<group>"; };
+		7AED74E72A8BA8FF0043AF3A /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7AED74C72A8957ED0043AF3A /* AppDelegate.swift */,
 				7AED74E32A895F770043AF3A /* OnboardingScreen.swift */,
 				7AED74CB2A8957ED0043AF3A /* MainScreen.swift */,
+				7AED74E72A8BA8FF0043AF3A /* BookmarkTableViewCell.swift */,
 				7AED74E52A8AA0AA0043AF3A /* BookmarksAPI.swift */,
 				7AED74CD2A8957ED0043AF3A /* Main.storyboard */,
 				7AED74D02A8957EF0043AF3A /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AED74E82A8BA8FF0043AF3A /* BookmarkTableViewCell.swift in Sources */,
 				7AED74E62A8AA0AA0043AF3A /* BookmarksAPI.swift in Sources */,
 				7AED74CC2A8957ED0043AF3A /* MainScreen.swift in Sources */,
 				7AED74C82A8957ED0043AF3A /* AppDelegate.swift in Sources */,
